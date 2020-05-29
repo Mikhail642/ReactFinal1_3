@@ -53,6 +53,7 @@ function addTodo (title){
 
 
 <a href='Osnovneazadachi.js'></a>
+<a href='Vtorostepenyazadachis.js'></a>
 <React.Suspense fallback={<p>Загрузка...</p>}>
   <AddTodo onCreate={addTodo}/> 
   {loading && <Loader />}
